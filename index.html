@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#030818">
+<link rel="icon" type="image/png" href="favicon.png">
+<title>Arena Gembira 2026 – The Convergence: A World of Cultures</title>
+<meta name="description" content="Pagelaran Seni Akbar Arena Gembira 2026 Pondok Pesantren Modern Daar El-Istiqomah. Sabtu, 3 Oktober 2026, pukul 20.00 WIB.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<noscript><style>.loader{display:none}</style></noscript>
+<!-- Loader -->
+<div class="loader" id="loader" role="status" aria-live="polite">
+  <b id="pct">0%</b>
+  <span>Menyiapkan Arena Gembira 2026</span>
+  <div class="bar"><i id="fill"></i></div>
+</div>
+
+<!-- Hero -->
+<header class="hero" id="top">
+  <div class="frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <div class="tag cap">The Convergence</div>
+  <div class="arch a1" aria-hidden="true"></div><div class="arch a2" aria-hidden="true"></div><div class="arch a3" aria-hidden="true"></div>
+  <div class="dust" id="dust" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="crest r" style="--i:0"><img src="logo.webp" width="520" height="758" alt="Lambang Arena Gembira 2026"></div>
+    <h1 class="r" style="--i:1">Arena Gembira</h1>
+    <p class="sub r" style="--i:2">A World of Cultures</p>
+    <p class="roman cap r" style="--i:3">M M X X V I</p>
+    <div class="div r" style="--i:3" aria-hidden="true">◆ ◆ ◆</div>
+    <p class="lbl cap r" style="--i:4">Hitung mundur menuju malam pagelaran</p>
+    <div class="count r" style="--i:5" role="timer" aria-label="Hitung mundur menuju acara">
+      <div><b id="d">--</b><small class="cap">Hari</small></div>
+      <div><b id="h">--</b><small class="cap">Jam</small></div>
+      <div><b id="m">--</b><small class="cap">Menit</small></div>
+      <div><b id="s">--</b><small class="cap">Detik</small></div>
+    </div>
+    <p class="date cap r" style="--i:6" id="status">3 Oktober 2026 &nbsp;·&nbsp; 20.00 WIB</p>
+    <div class="cta r" style="--i:7"><a class="btn cap" href="#pertunjukan">Lihat pertunjukan</a><a class="btn alt cap" href="#galeri">Galeri foto</a></div>
+  </div>
+</header>
+
+<!-- Teks berjalan -->
+<div class="ticker cap" aria-hidden="true"><div id="tk"></div></div>
+
+<!-- Tentang -->
+<section id="tentang">
+  <div class="wrap">
+    <h2>Panggung karya santri</h2>
+    <div class="orn" aria-hidden="true">◆ ◆ ◆</div>
+    <p class="lead">Arena Gembira adalah ajang bagi santri Pondok Pesantren Modern Daar El-Istiqomah untuk menunjukkan kreativitas dan potensi mereka. Acara ditata apik, dikelola secara profesional, dan tetap berlandaskan nilai-nilai Islam serta pendidikan.</p>
+    <p class="lead">Panitianya adalah santri kelas 5 dan 6 KMI bersama para guru. Lewat acara ini mereka belajar memimpin, bekerja sama, dan bertanggung jawab.</p>
+    <div class="motto"><q>Strive Through Knowledge, Create for Civilization.</q><span>Berjuang dengan ilmu, berkarya untuk peradaban.</span></div>
+  </div>
+</section>
+
+<!-- Pertunjukan -->
+<section id="pertunjukan" style="padding-top:0">
+  <div class="wrap">
+    <h2>Pertunjukan</h2>
+    <div class="orn" aria-hidden="true">◆ ◆ ◆</div>
+    <div class="tabs" role="group" aria-label="Filter pertunjukan">
+      <button aria-pressed="true" data-f="all">Semua</button>
+      <button aria-pressed="false" data-f="musik">Musik</button>
+      <button aria-pressed="false" data-f="tari">Tari</button>
+      <button aria-pressed="false" data-f="teater">Teater dan kata</button>
+      <button aria-pressed="false" data-f="lain">Lainnya</button>
+    </div>
+    <ul class="grid" id="grid"></ul>
+  </div>
+</section>
+
+<!-- Galeri foto -->
+<section id="galeri">
+  <div class="wrap">
+    <h2>Galeri foto</h2>
+    <div class="orn" aria-hidden="true">◆ ◆ ◆</div>
+    <p class="lead">Dokumentasi persiapan dan malam pagelaran akan ditampilkan di sini.</p>
+    <div class="gal" id="gal"></div>
+  </div>
+</section>
+<dialog id="lb" aria-label="Foto"><img alt=""><p class="cap"></p><button class="btn cap" id="lbx">Tutup</button></dialog>
+
+<!-- Waktu & tempat -->
+<section id="info" style="padding-top:0">
+  <div class="wrap">
+    <h2>Waktu dan tempat</h2>
+    <div class="orn" aria-hidden="true">◆ ◆ ◆</div>
+    <div class="info">
+      <div><h3>Waktu</h3><p><strong>Sabtu, 3 Oktober 2026</strong><br>Pukul 20.00 WIB sampai selesai</p></div>
+      <div><h3>Tempat</h3><p><strong>Lapangan Utama</strong><br>Pondok Pesantren Modern Daar El-Istiqomah, Kesawon, Sukawana, Kota Serang, Banten</p></div>
+      <div><h3>Sifat kegiatan</h3><p>Edukatif, kreatif, inspiratif, inovatif, dan Islami.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Panitia -->
+<section id="panitia" style="padding-top:0">
+  <div class="wrap">
+    <h2>Panitia</h2>
+    <div class="orn" aria-hidden="true">◆ ◆ ◆</div>
+    <dl>
+      <dt>Penasehat</dt><dd>Ustadz Drs. KH. Sulaeman Ma’ruf<br>Ustadzah Emin Muhaiminah</dd>
+      <dt>Pembimbing umum</dt><dd>Ustadz Muhammad Afif, S.Pd.I.<br>Ustadz Alamul Huda<br>Ustadzah Nurlaila, S.Ag<br>Ustadzah Miftahul Uyun, Lc<br>Ustadzah Dzakiyatul Wardah</dd>
+      <dt>Ketua</dt><dd>Raka Subarna (6 KMI)<br>Haki Nazily (5 KMI)<br>Najla Agistin (6 KMI)<br>Aisyah Zahwa (5 KMI)</dd>
+    </dl>
+    <div class="chips"><span>Sekretaris</span><span>Bendahara</span><span>Humas</span><span>Acara</span><span>Dekorasi</span><span>Konsumsi</span></div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="wrap">
+    <p class="cap">Arena Gembira 2026–2027</p>
+    <p>Pondok Pesantren Modern Daar El-Istiqomah, Kesawon, Sukawana, Kota Serang, Banten.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
